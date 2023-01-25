@@ -11,6 +11,7 @@ namespace Moozey.Controllers
         {
             "Hip-Hop", "AfroHouse", "Dancehall", "Electro", "House", " Kuduro", "Salsa", "Bachata", "Tango", "Wacking"
         };
+
         [HttpGet(Name = "GetStyle")]
         public IEnumerable <Style> Get()
         {
