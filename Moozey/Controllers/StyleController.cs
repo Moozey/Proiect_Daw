@@ -9,7 +9,7 @@ namespace Moozey.Controllers
     {
         private static readonly string[] Styles = new[]
         {
-            "Hip-Hop", "AfroHouse", "Dancehall", "Electro", "House", " Kuduro", "Salsa", "Bachata", "Tango", "Wacking"
+            "Hip-Hop", "Traditional", "AfroHouse", "Dancehall", "Electro", "House", " Kuduro", "Salsa", "Bachata", "Tango", "Wacking"
         };
 
         [HttpGet(Name = "GetStyle")]
