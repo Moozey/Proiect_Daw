@@ -22,7 +22,7 @@ namespace Moozey.Data
                 //.WithOne(st => st.Style);
 
             modelBuilder.Entity<Student>()
-              .HasMany(s => s.InstructorsStyles)
+              .HasMany(s => s.InstructorStyle)
               .WithOne(st => st.Student);
 
             //Many to Many
