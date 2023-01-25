@@ -1,7 +1,9 @@
-﻿namespace Moozey.Models
+﻿using Moozey.Models.Base;
+
+namespace Moozey.Models
 {
-    public class Style
-    {   public string Id { get; set; }
+    public class Style : BaseEntity
+    {   
         public string NameStyle { get; set; }
         public int NrInstructor { get; set; }
         public int Price { get; set; }

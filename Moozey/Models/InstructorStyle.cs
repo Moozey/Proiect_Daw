@@ -1,6 +1,8 @@
-﻿namespace Moozey.Models
+﻿using Moozey.Models.Base;
+
+namespace Moozey.Models
 {
-    public class InstructorStyle
+    public class InstructorStyle 
     {
         public Guid InstructorId { get; set; }
         public Instructor Instructor { get; set; }
